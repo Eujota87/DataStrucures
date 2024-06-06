@@ -70,7 +70,7 @@ int TreeHeight(Node *node) {
 
 int ShowPath(Node* node, int data) {
     if(!node) return 0;
-        if(node->data == data) {
+    if(node->data == data) {
         printf("(%d)<-", node->data);
         return 1;
     }
